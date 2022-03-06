@@ -1,0 +1,47 @@
+/* mini-project style sheet
+	FlashCardLeaf.css*/
+
+ body    { font-family: sans-serif, helvetica, arial;}
+ 
+		    .bg_image { position: fixed;
+			            width: 100%;
+						height: 100%;
+						top: 0px;
+						left: 0px;
+						z-index: -1;
+					  }
+			.title	  { font-size: 36px;
+						color: white;
+						text-align: center;
+						text-decoration: underline;
+					  }
+			.text	  { font-size: 24px;
+						color: white;
+					  }	
+			.text2	  { color: white;
+						font-size: 18px;
+					  }
+			.success  { color: yellow;
+						font-size: 30px;	
+						right: 10px;
+						text-align: right;
+					  }	
+			.wrong  { color: gray;
+						font-size: 30px;	
+						right: 10px;
+						text-align: right;
+					  }						  
+			.hide	  { position: fixed;
+						bottom: 20px;
+						right: 0px;
+						color: gray;
+					  }
+			.hide1	  { position: fixed;
+						bottom: 0px;
+						right: 0px;
+						color: gray;
+					  }
+			.pic1 	  { position: center;
+						width: 320px;
+						height: 320px;
+				      }		

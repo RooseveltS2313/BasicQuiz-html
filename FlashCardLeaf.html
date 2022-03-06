@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset = "utf-8">
+		<title> Tree Leaves </title>
+		<link rel = "stylesheet" type = "text/css" href = "FlashCardLeaf.css">		
+		<script src = "FlashCardLeaf.js"> </script>
+		
+	</head>
+	
+	<body>
+	<h1 class = "title"> Leaf Trivia </h1>
+		<p class = "text"> What leaf is this? </p>
+	
+	
+	<p>
+		<img id = "currentQ" src = "blank.png" alt = "Question Image">				 
+	</p>
+
+	<form action = "#">
+		    <input id = "showAnswer" type = "button" value = "Right Choice">
+	</form>
+	
+	<p class = "text2" id="rChoice"></p>
+	<p class = "success" id="success"></p>
+	<p class = "wrong" id="wrong"></p>	
+	
+	<form action = "#">
+		    <input id = "choice0" type = "button" value = "option1">
+	</form>
+	<form action = "#">
+		    <input id = "choice1" type = "button" value = "option2">
+	</form>
+	<form action = "#">
+		    <input id = "choice2" type = "button" value = "option3">
+	</form>
+	<form action = "#">
+		    <input id = "choice3" type = "button" value = "option4">
+	</form>
+	
+	
+	<p></p>
+	<form action = "#">
+		    <input id = "nextQuestion" type = "button" value = "Next Question">
+	</form>
+	
+	<p class = "text" id="cQuest"> Current question: 1</p>	
+	<p class = "text" id="cScore"> Score: 0</p>	
+	
+	
+	
+	
+	<p class = "hide"> This is the 'seed' for this instance of the quiz.</p>
+	<p class = "hide1" id="qList2"></p>	
+	
+	<!-- Background: https://www.pexels.com/photo/green-trees-1567058/ Photo taken by 
+Johannes Plenio -->
+	<p> <img src = "https://images.unsplash.com/photo-1475570407181-7a59ce5593da?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" " class = "bg_image" alt = "Bright Forest Background" /> 
+	</p>
+	</body>
+	
+	
+</html>
