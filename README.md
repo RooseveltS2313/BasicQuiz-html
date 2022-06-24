@@ -6,5 +6,5 @@ and I chose the topic of leaves.
 This was made my second year into university and was one of my areas of growth as it shows what I thought was acceptable 
 website design at the time.
 
-The code itself it a mixture of javascript and html to randomize the quiz with a generated 'seed' for the correct answers
+The code itself is mainly javascript, using html and css for the website to randomize the quiz with a generated 'seed' for the correct answers
 availbale.
